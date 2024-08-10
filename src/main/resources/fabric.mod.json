@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "morewood",
+	"id": "template",
 	"version": "${version}",
 
-	"name": "more-wood",
+	"name": "template",
 	"description": "This is a template for future mods",
 	"authors": [
 		"Fire_Horse27"
@@ -18,13 +18,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.fire_horse27.morewood.MoreWood"
+			"net.fire_horse27.template.Template"
 		],
 		"fabric-datagen": [
-			"net.fire_horse27.morewood.MoreWoodDataGenerator"
+			"net.fire_horse27.template.TemplateDataGenerator"
 		],
 		"client": [
-			"net.fire_horse27.morewood.MoreWoodClient"
+			"net.fire_horse27.template.TemplateClient"
 		]
 	},
 

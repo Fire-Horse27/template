@@ -1,6 +1,6 @@
-package net.fire_horse27.morewood.block;
+package net.fire_horse27.template.block;
 
-import net.fire_horse27.morewood.MoreWood;
+import net.fire_horse27.template.Template;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -25,10 +25,10 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        MoreWood.LOGGER.debug("Registering ModBlocks for " + MoreWood.MOD_ID);
+        Template.LOGGER.debug("Registering ModBlocks for " + Template.MOD_ID);
     }
 
     private static Identifier id(String path) {
-        return Identifier.of(MoreWood.MOD_ID, path);
+        return Identifier.of(Template.MOD_ID, path);
     }
 }

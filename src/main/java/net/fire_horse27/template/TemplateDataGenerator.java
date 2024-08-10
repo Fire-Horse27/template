@@ -1,10 +1,10 @@
-package net.fire_horse27.morewood;
+package net.fire_horse27.template;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import net.fire_horse27.morewood.datagen.*;
+import net.fire_horse27.template.datagen.*;
 
-public class MoreWoodDataGenerator implements DataGeneratorEntrypoint {
+public class TemplateDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
