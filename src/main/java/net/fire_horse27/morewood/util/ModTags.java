@@ -1,6 +1,6 @@
-package net.fire_horse27.template.util;
+package net.fire_horse27.morewood.util;
 
-import net.fire_horse27.template.Template;
+import net.fire_horse27.morewood.MoreWood;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;
@@ -12,7 +12,7 @@ public class ModTags {
 
 
         private static TagKey<Block> createTag(String name) {
-            return TagKey.of(RegistryKeys.BLOCK, Identifier.of(Template.MOD_ID, name));
+            return TagKey.of(RegistryKeys.BLOCK, Identifier.of(MoreWood.MOD_ID, name));
         }
     }
 
@@ -22,7 +22,7 @@ public class ModTags {
         private static TagKey<Item> createTag(String name) {
 
 
-            return TagKey.of(RegistryKeys.ITEM, Identifier.of(Template.MOD_ID, name));
+            return TagKey.of(RegistryKeys.ITEM, Identifier.of(MoreWood.MOD_ID, name));
         }
     }
 }

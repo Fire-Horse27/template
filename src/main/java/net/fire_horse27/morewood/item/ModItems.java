@@ -1,7 +1,7 @@
-package net.fire_horse27.template.item;
+package net.fire_horse27.morewood.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.fire_horse27.template.Template;
+import net.fire_horse27.morewood.MoreWood;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -21,12 +21,12 @@ public class ModItems {
     }
 
     public static void registerModItems() {
-        Template.LOGGER.info("Registering Mod Items for " + Template.MOD_ID);
+        MoreWood.LOGGER.info("Registering Mod Items for " + MoreWood.MOD_ID);
 
         addItemsToItemGroup();
     }
 
     private static Identifier id(String path) {
-        return Identifier.of(Template.MOD_ID, path);
+        return Identifier.of(MoreWood.MOD_ID, path);
     }
 }
